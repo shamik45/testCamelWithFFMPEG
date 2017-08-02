@@ -1,11 +1,11 @@
-import org.apache.activemq.camel.component.ActiveMQComponent;
+/*import org.apache.activemq.camel.component.ActiveMQComponent;
 import org.apache.camel.CamelContext;
 import org.apache.camel.ProducerTemplate;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
-
+*/
 public class CamelHelloWorldExample {
-    public static void main(String[] args) throws Exception {
+/*    public static void main(String[] args) throws Exception {
         CamelContext context = new DefaultCamelContext();
         try {
             context.addComponent("activemq", ActiveMQComponent.activeMQComponent("vm://localhost?broker.persistent=false"));
@@ -24,4 +24,5 @@ public class CamelHelloWorldExample {
             context.stop();
         }
     }
+    */
 }
